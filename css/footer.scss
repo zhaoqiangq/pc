@@ -1,0 +1,40 @@
+.footer{
+  width: 100%;
+  background: #272b2e;
+  padding: 40px 0;
+  color: #fff;
+  font-size: 13px;
+  .footerInner{
+    width: 1200px;
+    margin: 0 auto;
+    .footerNav{
+      li{
+        display: inline-block;
+        margin-right: 40px;
+        a{
+          color: #969799;
+          &:hover{
+            color: #10c55b;
+          }
+        }
+      }
+    }
+    .footermsg{
+      border-top: 1px solid #3D4043;
+      margin-top: 32px;
+      padding-top: 20px;
+      .company{
+        color: #969799;
+        p{
+          line-height: 30px;
+        }
+        span{
+          margin-right: 24px;
+        }
+        img{
+          width: 15px;
+        }
+      }
+    }
+  }
+}

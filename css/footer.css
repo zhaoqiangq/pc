@@ -1,0 +1,28 @@
+.footer {
+  width: 100%;
+  background: #272b2e;
+  padding: 40px 0;
+  color: #fff;
+  font-size: 13px; }
+  .footer .footerInner {
+    width: 1200px;
+    margin: 0 auto; }
+    .footer .footerInner .footerNav li {
+      display: inline-block;
+      margin-right: 40px; }
+      .footer .footerInner .footerNav li a {
+        color: #969799; }
+        .footer .footerInner .footerNav li a:hover {
+          color: #10c55b; }
+    .footer .footerInner .footermsg {
+      border-top: 1px solid #3D4043;
+      margin-top: 32px;
+      padding-top: 20px; }
+      .footer .footerInner .footermsg .company {
+        color: #969799; }
+        .footer .footerInner .footermsg .company p {
+          line-height: 30px; }
+        .footer .footerInner .footermsg .company span {
+          margin-right: 24px; }
+        .footer .footerInner .footermsg .company img {
+          width: 15px; }
