@@ -1,0 +1,100 @@
+.banner{
+  width: 100%;
+  height: 600px;
+  background: url(../img/aboutbg.jpg)no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  .bannershadow{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.1);
+  }
+  .title{
+    position: absolute;
+    top:0;left: 0;right: 0;bottom: 0;
+    margin: auto;
+    text-align: center;
+    padding-top: 184px;
+    box-sizing: border-box;
+    div{
+      width: 200px;
+      font-size: 45px;
+      color: #fff;
+      text-align: left;
+      margin: 0 auto;
+      img{
+        width: 45px;
+        float: left;
+        display: block;
+        margin-top: 10px;
+        margin-right: 10px;
+      }
+    }
+    h2{
+      font-size: 70px;
+      color: #fff;
+      margin-top: 30px;
+      line-height: 98px;
+    }
+  }
+}
+.about{
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  &:after{
+    content: "";
+    clear: both;
+    display: block;
+  }
+  .abouttext{
+    width: 600px;
+    float: left;
+    h1{
+      font-size: 30px;
+      line-height: 42px;
+      font-family: PingFangSC-Medium;
+      margin-bottom: 30px;
+      color: #333;
+    }
+    p{
+      font-size: 14px;
+      color: #666;
+      line-height: 30px;
+    }
+  }
+  .imgbox{
+    width: 500px;
+    float: right;
+    padding-top: 50px;
+    img{
+      width: 100%;
+    }
+  }
+  .yuanjing{
+    margin-top: 60px;
+    img{
+      width: 600px;
+      margin-top: 50px;
+    }
+    div{
+      width: 500px;
+      float: right;
+      margin-top: 50px;
+      h1{
+        font-size: 30px;
+        line-height: 42px;
+        font-family: PingFangSC-Medium;
+        margin-bottom: 20px;
+        color: #333;
+      }
+      p{
+        color: #333;
+        font-size: 18px;
+        line-height: 40px;
+      }
+    }
+  }
+}
